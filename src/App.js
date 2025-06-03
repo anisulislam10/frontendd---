@@ -11,6 +11,7 @@ import { useGlobalContext } from './context/globalContext';
 import Loans from './Components/Loans/Loans';
 
 function App() {
+  
   const [active, setActive] = useState(1)
 
   const global = useGlobalContext()
